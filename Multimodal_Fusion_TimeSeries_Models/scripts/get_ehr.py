@@ -4,7 +4,7 @@ import pandas as pd
 import numpy
 import json
 
-DATA_DIR = "/Users/devleibowitz/Documents/TAU Courses/Deep Learning Raja/HW/dl_homeworks/FINAL_PROJECT/data"
+DATA_DIR = "/Users/devleibowitz/Documents/TAU Courses/Deep Learning Raja/HW/dl_homeworks/Multimodal_Fusion_TimeSeries_Models/data"
 
 
 def get_ehr(data_dir, label_file_path, output_path=os.path.join(DATA_DIR, "processed", "labeled_ehr.csv")):
@@ -69,8 +69,8 @@ def get_ehr(data_dir, label_file_path, output_path=os.path.join(DATA_DIR, "proce
     return df
 
 # Example usage:
-data_dir = "/Users/devleibowitz/Documents/TAU Courses/Deep Learning Raja/HW/dl_homeworks/FINAL_PROJECT/data/ctu_chb_data"
-label_file = '/Users/devleibowitz/Documents/TAU Courses/Deep Learning Raja/HW/dl_homeworks/FINAL_PROJECT/data/processed/phenotype_2_labels.csv'
+data_dir = "/Users/devleibowitz/Documents/TAU Courses/Deep Learning Raja/HW/dl_homeworks/Multimodal_Fusion_TimeSeries_Models/data/ctu_chb_data"
+label_file = '/Users/devleibowitz/Documents/TAU Courses/Deep Learning Raja/HW/dl_homeworks/Multimodal_Fusion_TimeSeries_Models/data/processed/phenotype_2_labels.csv'
 
 ehr_df = get_ehr(data_dir, label_file)
 print(ehr_df.head())

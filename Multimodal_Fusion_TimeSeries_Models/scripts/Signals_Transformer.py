@@ -11,7 +11,7 @@ import warnings
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="bleach")
 
 
-DATA_DIR = "/Users/devleibowitz/Documents/TAU Courses/Deep Learning Raja/HW/dl_homeworks/FINAL_PROJECT/data"
+DATA_DIR = "/Users/devleibowitz/Documents/TAU Courses/Deep Learning Raja/HW/dl_homeworks/Multimodal_Fusion_TimeSeries_Models/data"
 
 # Load Data
 def load_data(label_path, tensor_path, mapping_path):

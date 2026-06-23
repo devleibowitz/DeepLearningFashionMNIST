@@ -8,7 +8,7 @@ import wfdb
 import matplotlib.pyplot as plt
 from scipy.interpolate import CubicSpline
 
-DATA_DIR = "/Users/devleibowitz/Documents/TAU Courses/Deep Learning Raja/HW/dl_homeworks/FINAL_PROJECT/data"
+DATA_DIR = "/Users/devleibowitz/Documents/TAU Courses/Deep Learning Raja/HW/dl_homeworks/Multimodal_Fusion_TimeSeries_Models/data"
 
 def trim_zeros(signal, threshold=5):
     """Remove only leading and trailing segments where all values are below a given threshold."""

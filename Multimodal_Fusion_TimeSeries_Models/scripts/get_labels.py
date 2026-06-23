@@ -5,7 +5,7 @@ import csv
 import wfdb
 from tqdm import tqdm
 
-DATA_DIR = '/Users/devleibowitz/Documents/TAU Courses/Deep Learning Raja/HW/dl_homeworks/FINAL_PROJECT/data'
+DATA_DIR = '/Users/devleibowitz/Documents/TAU Courses/Deep Learning Raja/HW/dl_homeworks/Multimodal_Fusion_TimeSeries_Models/data'
 
 # wide phenotype
 def _phenotype_1(data_dir, record_id):

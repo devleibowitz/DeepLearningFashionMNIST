@@ -1,2 +1,0 @@
-# Keep dataset artifacts out of git to speed up pushes.
-**/data/
